@@ -212,7 +212,7 @@ El crecimiento del catálogo, la utilización de contenido dinámico mediante Wo
 - Mejor experiencia de usuario en escritorio y dispositivos móviles.
 - Infraestructura preparada para soportar el crecimiento continuo del catálogo y del tráfico.
 
-![PageSpeed Desktop](img\metrica_pagespeed.png)
+![PageSpeed Desktop](img/metrica_pagespeed.png)
 
 ---
 
@@ -249,25 +249,25 @@ Entre los principales impactos destacan:
 
 ### Página principal
 
-![Home](img\pagina_principal.png)
+![Home](img/pagina_principal.png)
 
 ---
 
 ### Página de producto
 
-![Producto](img\pagina_producto.png)
+![Producto](img/pagina_producto.png)
 
 ---
 
 ### Search Console
 
-![Search Console](img\rendimiento_search_console.png)
+![Search Console](img/rendimiento_search_console.png)
 
 ---
 
 ### AWS S3
 
-![Amazon S3](img\metrica_aws_s3.png)
+![Amazon S3](img/metrica_aws_s3.png)
 
 ---
 
