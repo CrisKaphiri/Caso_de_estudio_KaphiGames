@@ -1,5 +1,8 @@
 # KaphiGames
 
+
+![WordPress](https://img.shields.io/badge/WordPress-CMS-blue) ![WooCommerce](https://img.shields.io/badge/WooCommerce-Ecommerce-purple) ![AWS](https://img.shields.io/badge/AWS-S3%20%7C%20CloudFront-orange) ![Estado](https://img.shields.io/badge/Estado-En%20Producción-success)
+
 > Plataforma de comercio electrónico en producción, diseñada, desarrollada y mantenida íntegramente por mí, con clientes reales, ventas activas y evolución continua basada en necesidades del negocio.
 
 ![Portada](img/logo_social_kaphigames_1.webp)
