@@ -5,7 +5,7 @@
 
 > Plataforma de comercio electrónico en producción, diseñada, desarrollada y mantenida íntegramente por mí, con clientes reales, ventas activas y evolución continua basada en necesidades del negocio.
 
-![Portada](img/logo_social_kaphigames_1.webp)
+![Portada](screenshots/logo_social_kaphigames_1.webp)
 
 ## 0. Estado del Proyecto
 
@@ -254,7 +254,7 @@ El crecimiento del catálogo, la utilización de contenido dinámico mediante Wo
 - Mejor experiencia de usuario en escritorio y dispositivos móviles.
 - Infraestructura preparada para soportar el crecimiento continuo del catálogo y del tráfico.
 
-![PageSpeed Desktop](img/metrica_pagespeed.png)
+![PageSpeed Desktop](screenshots/metrica_pagespeed.png)
 
 ---
 
