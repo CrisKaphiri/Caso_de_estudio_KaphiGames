@@ -31,12 +31,13 @@ Como fundador y responsable técnico del proyecto, participé en todo el ciclo d
 
 - Diseño de arquitectura.
 - Desarrollo de funcionalidades.
+- creación de plugins personalizados.
 - Infraestructura cloud.
 - Optimización de rendimiento.
 - SEO técnico.
 - Mantenimiento y mejora continua.
 
-El proyecto ha servido como un entorno de producción real para aplicar conocimientos de desarrollo web, infraestructura, optimización de rendimiento y SEO técnico, enfrentando desafíos propios de una plataforma con clientes reales y evolución continua basada en necesidades del negocio.
+El proyecto ha servido como un entorno de producción real para aplicar conocimientos de desarrollo web, desarrollo de plugins, infraestructura, optimización de rendimiento y SEO técnico, enfrentando desafíos propios de una plataforma con clientes reales y evolución continua basada en necesidades del negocio.
 
 Actualmente, la plataforma se encuentra operativa en producción, gestionando un catálogo de más de **1.400 productos**, más de **70.000 recursos multimedia almacenados en Amazon S3** y atendiendo clientes reales, permitiendo validar decisiones técnicas y mejoras continuas sobre un producto en funcionamiento.
 
@@ -131,9 +132,47 @@ Distribución y velocidad del sitio.
 
 ---
 
-## 6. Principales desafíos técnicos
+## 6. Plugins personalizados desarrollados
 
-### 6.1 Gestión de un catálogo extenso
+Con el objetivo de automatizar procesos del negocio y mejorar la mantenibilidad de la plataforma, se desarrollaron plugins personalizados utilizando PHP y WordPress.
+
+### 6.1 Sistema de descuentos personalizados para WooCommerce
+
+Plugin orientado a implementar reglas de negocio específicas para promociones y descuentos personalizados dentro de la plataforma.
+
+**Responsabilidades:**
+- Implementación de lógica de descuentos personalizada.
+- Integración con WooCommerce.
+- Centralización de funcionalidades previamente desarrolladas mediante Code Snippets.
+- Mejora de mantenibilidad y reutilización del código.
+
+![Panel_descuento](screenshots/panel.png)
+
+Repositorio:
+[Descuentos por lote](https://github.com/CrisKaphiri/CSO-Descuentos-por-lote)
+
+---
+
+### 2. Integración de pedidos con WhatsApp
+
+Plugin orientado a enviar información del pedido en la página de orden recibida hacia WhatsApp.
+
+**Responsabilidades:**
+- Envío de información de pedidos.
+- Optimización de procesos internos.
+- Reducción de tareas manuales.
+- Mejora del seguimiento operativo.
+
+![Plugin whatsapp](screenshots/panel_plugin.png)
+
+Repositorio:
+[Boton pedido whatsapp](https://github.com/CrisKaphiri/CSO-Boton-whatsapp-pedido)
+
+--
+
+## 7. Principales desafíos técnicos
+
+### 7.1 Gestión de un catálogo extenso
 
 La plataforma debía administrar más de mil productos manteniendo una estructura organizada y fácilmente mantenible.
 
@@ -145,7 +184,7 @@ La plataforma debía administrar más de mil productos manteniendo una estructur
 
 ---
 
-### 6.2 Optimización de rendimiento
+### 7.2 Optimización de rendimiento
 
 El crecimiento del catálogo y la cantidad de recursos estáticos generaban desafíos relacionados con la velocidad de carga.
 
@@ -160,7 +199,7 @@ El crecimiento del catálogo y la cantidad de recursos estáticos generaban desa
 
 ---
 
-### 6.3 SEO técnico
+### 7.3 SEO técnico
 
 La plataforma presentó desafíos relacionados con la gestión de un gran volumen de URLs, indexación de productos y resolución de problemas de contenido duplicado y URLs canónicas.
 
@@ -174,7 +213,7 @@ La plataforma presentó desafíos relacionados con la gestión de un gran volume
 
 ---
 
-### 6.4 Evolución continua del producto
+### 7.4 Evolución continua del producto
 
 La plataforma requiere mejoras constantes basadas en necesidades reales del negocio.
 
@@ -185,11 +224,11 @@ La plataforma requiere mejoras constantes basadas en necesidades reales del nego
 
 ---
 
-## 7. Rendimiento y optimización web
+## 8. Rendimiento y optimización web
 
 El crecimiento del catálogo, la utilización de contenido dinámico mediante WooCommerce y JetEngine, junto con la gran cantidad de recursos multimedia, hicieron necesario implementar una estrategia de optimización continua para mantener una experiencia de usuario fluida.
 
-### 7.1 Principales optimizaciones implementadas
+### 8.1 Principales optimizaciones implementadas
 
 - Implementación de Cloudflare para proxy, caché y optimización del tráfico.
 - Configuración de LiteSpeed Cache para optimización de páginas y recursos.
@@ -198,7 +237,7 @@ El crecimiento del catálogo, la utilización de contenido dinámico mediante Wo
 - Conversión y optimización de imágenes a formato WebP.
 - Evaluación de rendimiento mediante Lighthouse para identificar oportunidades de mejora.
 
-### 7.2 Métricas de referencia
+### 8.2 Métricas de referencia
 
 | Métrica | Escritorio | Móvil |
 |----------|-------------|--------|
@@ -208,7 +247,7 @@ El crecimiento del catálogo, la utilización de contenido dinámico mediante Wo
 | Total Blocking Time | 100 ms | 20 ms |
 | Cumulative Layout Shift | 0.001 | 0 |
 
-### 7.3 Resultados obtenidos
+### 8.3 Resultados obtenidos
 
 - Mejoras significativas en velocidad de carga y distribución de recursos.
 - Reducción del consumo de almacenamiento y ancho de banda del servidor principal mediante Amazon S3.
@@ -219,7 +258,7 @@ El crecimiento del catálogo, la utilización de contenido dinámico mediante Wo
 
 ---
 
-## 8. Resultados
+## 9. Resultados
 
 - Plataforma actualmente en producción.
 - Más de **1.400 productos publicados**.
@@ -234,7 +273,7 @@ El crecimiento del catálogo, la utilización de contenido dinámico mediante Wo
 
 ---
 
-## 9. Impacto del proyecto
+## 10. Impacto del proyecto
 
 La creación de la plataforma permitió centralizar la operación del negocio y reducir la dependencia de canales externos, habilitando nuevas posibilidades de crecimiento y administración.
 
@@ -248,37 +287,39 @@ Entre los principales impactos destacan:
 
 ---
 
-## 10. Galería
+## 11. Galería
 
 ### Página principal
 
-![Home](img/pagina_principal.png)
+![Home](screenshots/pagina_principal.png)
 
 ---
 
 ### Página de producto
 
-![Producto](img/pagina_producto.png)
+![Producto](screenshots/pagina_producto.png)
 
 ---
 
 ### Search Console
 
-![Search Console](img/rendimiento_search_console.png)
+![Search Console](screenshots/rendimiento_search_console.png)
 
 ---
 
 ### AWS S3
 
-![Amazon S3](img/metrica_aws_s3.png)
+![Amazon S3](screenshots/metrica_aws_s3.png)
 
 ---
 
-## 11. Aprendizaje
+## 12. Aprendizaje
 
 Este proyecto me permitió profundizar conocimientos en:
 
 - Desarrollo WordPress y WooCommerce.
+- Desarrollo de plugins personalizados para WordPress.
+- Implementación de lógica de negocio mediante hooks y APIs de Wordpress y WooCommerce.
 - Desarrollo de soluciones personalizadas orientadas a necesidades reales del negocio.
 - Infraestructura cloud utilizando AWS.
 - Optimización de rendimiento y WPO.
@@ -290,7 +331,7 @@ Este proyecto me permitió profundizar conocimientos en:
 
 ---
 
-## 12. Próximos pasos
+## 13. Próximos pasos
 
 - Continuar optimizando rendimiento y SEO técnico.
 - Mejorar procesos de automatización y administración.
@@ -300,7 +341,7 @@ Este proyecto me permitió profundizar conocimientos en:
 
 ---
 
-## 13. Contenido del repositorio
+## 14. Contenido del repositorio
 
 Este repositorio corresponde a un caso de estudio técnico y no incluye el código fuente completo del proyecto, debido a que la plataforma se encuentra en producción y contiene configuraciones e implementaciones específicas del negocio.
 
@@ -308,8 +349,9 @@ El objetivo es documentar la arquitectura, decisiones técnicas, desafíos y apr
 
 ---
 
-## 14. Enlaces
+## 15. Enlaces
 
 Sitio web: https://kaphigames.com<br>
 LinkedIn: https://www.linkedin.com/in/cristobal-sanchez-orellana/<br>
 GitHub: https://github.com/CrisKaphiri
+
