@@ -168,7 +168,7 @@ Plugin orientado a enviar información del pedido en la página de orden recibid
 Repositorio:
 [Boton pedido whatsapp](https://github.com/CrisKaphiri/CSO-Boton-whatsapp-pedido)
 
---
+---
 
 ## 7. Principales desafíos técnicos
 
